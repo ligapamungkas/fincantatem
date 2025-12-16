@@ -1,4 +1,16 @@
-# F. Incantatem
+```
+▗▄▄▄▖    ▗▄▄▄▖▄▄▄▄  ▗▞▀▘▗▞▀▜▌▄▄▄▄     ■  ▗▞▀▜▌   ■  ▗▞▀▚▖▄▄▄▄  
+▐▌         █  █   █ ▝▚▄▖▝▚▄▟▌█   █ ▗▄▟▙▄▖▝▚▄▟▌▗▄▟▙▄▖▐▛▀▀▘█ █ █ 
+▐▛▀▀▘      █  █   █          █   █   ▐▌         ▐▌  ▝▚▄▄▖█   █ 
+▐▌       ▗▄█▄▖                       ▐▌         ▐▌             
+                                     ▐▌         ▐▌             
+```
+
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](https://github.com/aguilar-ai/fincantatem/blob/main/pyproject.toml)
+[![Last commit](https://img.shields.io/github/last-commit/aguilar-ai/fincantatem)](https://github.com/aguilar-ai/fincantatem/commits/main)
+[![Repo size](https://img.shields.io/github/repo-size/aguilar-ai/fincantatem)](https://github.com/aguilar-ai/fincantatem)
+[![PyPI version](https://img.shields.io/pypi/v/fincantatem.svg)](https://pypi.org/project/fincantatem/)
+[![Python versions](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 
 Python is honest, but not generous.
 
@@ -9,6 +21,9 @@ F. Incantatem reconstructs that understanding. It reads the exception in full co
 It integrates without ceremony: decorator, CLI, or IPython extension. Add it where you want. Leave the rest alone.
 
 ## Features
+
+![F. Incantatem](images/header.png)
+*The tool displays a condensed traceback, identifies the root cause, and provides actionable fixes — all automatically. You can even chat with your exception.*
 
 - **Contextual Analysis** — Examines stack traces, source code, and local variables to produce reasoned explanations
 - **Multiple Integration Points** — Use as a decorator, command-line tool, or IPython extension
@@ -33,10 +48,6 @@ It integrates without ceremony: decorator, CLI, or IPython extension. Add it whe
   - [1. The "Silent API Change"](#1-the-silent-api-change)
   - [2. The "Mutable Default Argument" Trap](#2-the-mutable-default-argument-trap)
   - [3. The "Unicode Normalization Bomb"](#3-the-unicode-normalization-bomb)
-- [Key Features](#key-features)
-  - [Basic Debugging](#basic-debugging)
-  - [Interactive Chat](#interactive-chat)
-  - [Cautious Mode](#cautious-mode-1)
 - [Configuration](#configuration)
   - [Environment Variables](#environment-variables)
   - [Presets](#presets)
@@ -46,6 +57,10 @@ It integrates without ceremony: decorator, CLI, or IPython extension. Add it whe
     - [Important Caveats](#important-caveats)
   - [Alternative Mitigation Strategies](#alternative-mitigation-strategies)
 - [Performance Considerations](#performance-considerations)
+- [Key Features](#key-features)
+  - [Basic Debugging](#basic-debugging)
+  - [Interactive Chat](#interactive-chat)
+  - [Cautious Mode](#cautious-mode-1)
 - [Requirements](#requirements)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
