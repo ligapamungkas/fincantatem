@@ -63,6 +63,7 @@ _The tool displays a condensed traceback, identifies the root cause, and provide
   - [Cautious Mode](#cautious-mode-1)
 - [Requirements](#requirements)
 - [License](#license)
+- [Roadmap](#roadmap)
 - [Acknowledgements](#acknowledgements)
 - [Status](#status)
 
