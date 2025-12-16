@@ -404,6 +404,38 @@ query_api("secret_key_123")
 
 Apache License 2.0
 
+## Roadmap
+
+Planned features and improvements:
+
+- **Richer Context Collection:**
+  - Analyze type annotations and compare them to runtime values for better error diagnosis.
+  - Capture dependency versions used in the traceback for context on API or environment issues.
+
+- **Smarter Code Analysis:**
+  - Use AST to retrieve full function/class definitions and key imports.
+  - Summarize data and control flow to pinpoint where and how values led to the crash.
+  - Show related code, assignments, and similar patterns across the codebase.
+
+- **External Knowledge Integration:**
+  - Fetch documentation for involved exceptions/functions.
+  - Suggest relevant GitHub issues or Stack Overflow threads.
+  - Check changelogs for breaking changes in third-party libraries.
+
+- **Enhanced Output:**
+  - Include severity and impact ratings.
+  - Offer ready-to-apply code patches.
+  - Generate suggested test cases.
+
+- **Context-Aware Features:**
+  - Detect common frameworks (Django, FastAPI, Pytest, etc.) and display specialized context.
+  - Optionally surface recent git history and CI/environment info.
+
+- **Advanced and Performance Features:**
+  - Let the AI request additional context in multi-turn analysis mode.
+  - Suggest reproduction steps, hypotheses, and incremental context loading.
+  - Pre-classify and summarize exceptions locally before making LLM calls.
+
 ## Acknowledgements
 
 The `pipe` utility is lifted from the [toolz](https://github.com/pytoolz/toolz) library.
